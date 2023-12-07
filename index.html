@@ -25,10 +25,10 @@
           <h1>Today I Learned</h1>
         </div>
 
-        <button class="btn btn-larger">Share a fact</button>
+        <button class="btn btn-larger btn-open">Share a fact</button>
       </header>
 
-      <form class="fact-form">
+      <form class="fact-form hidden">
         <input type="text" placeholder="Share a fact with the world..." />
         <span>200</span>
         <input type="text" placeholder="Trustworthy source" />
@@ -48,10 +48,20 @@
               <button class="btn btn-all-categories">All</button>
             </li>
             <li class="category">
-              <button class="btn btn-category" style="background-color: #3b82f6">Technology</button>
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
             </li>
             <li class="category">
-              <button class="btn btn-category" style="background-color: #16a34a">Science</button>
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
             </li>
           </ul>
         </aside>
@@ -69,12 +79,12 @@
                 >
               </p>
               <span class="tag" style="background-color: #3b82f6"
-                >#technology#</span
+                >technology</span
               >
               <div class="vote-buttons">
-                <button>👍 <strong>24</strong></button>
-                <button>🤯 <strong>9</strong></button>
-                <button>⛔️ <strong>4</strong></button>
+                <button>👍 24</button>
+                <button>🤯 9</button>
+                <button>⛔️ 4</button>
               </div>
             </li>
             <li class="fact">
@@ -89,18 +99,17 @@
                   >(Source)</a
                 >
               </p>
-              <span class="tag" style="background-color: #eab308"
-                >#society#</span
-              >
+              <span class="tag" style="background-color: #eab308">society</span>
               <div class="vote-buttons">
-                <button>👍 <strong>15</strong></button>
-                <button>🤯 <strong>8</strong></button>
-                <button>⛔️ <strong>2</strong></button>
+                <button>👍 15</button>
+                <button>🤯 8</button>
+                <button>⛔️ 2</button>
               </div>
             </li>
           </ul>
         </section>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
